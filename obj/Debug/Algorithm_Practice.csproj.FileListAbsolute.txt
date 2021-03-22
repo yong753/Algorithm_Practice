@@ -1,0 +1,7 @@
+D:\윤지용\0. 개발\4. Algorithm\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe.config
+D:\윤지용\0. 개발\4. Algorithm\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe
+D:\윤지용\0. 개발\4. Algorithm\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.pdb
+D:\윤지용\0. 개발\4. Algorithm\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.csprojAssemblyReference.cache
+D:\윤지용\0. 개발\4. Algorithm\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.csproj.CoreCompileInputs.cache
+D:\윤지용\0. 개발\4. Algorithm\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.exe
+D:\윤지용\0. 개발\4. Algorithm\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.pdb
