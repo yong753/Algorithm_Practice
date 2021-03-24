@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Algorithm_Practice
 {
@@ -9,14 +10,59 @@ namespace Algorithm_Practice
             // 문제 - 수학1 -벌집문제
             // 각 회당 벌집방 수가 얼마나 늘어나는지를 수식화
             // 가고싶은 방이 속해있는 단계 만큼이 최소거리
-            
-            int x = int.Parse(Console.ReadLine());
-            double n = Math.Sqrt((x - 0.25) / 3) + 0.5;
 
-            Console.WriteLine(Math.Ceiling(n));
+            //int x = int.Parse(Console.ReadLine());
+            //double n = Math.Sqrt((x - 0.25) / 3) + 0.5;
+
+            //Console.WriteLine(Math.Ceiling(n));
             //Console.ReadKey();
 
 
+
+            // 수학1 - 분수찾기
+            //int x = int.Parse(Console.ReadLine());
+            //double n = Math.Ceiling(Math.Sqrt(2 * x + 0.25) - 0.5);
+            //double i = x - n * (n - 1) / 2;
+
+            //if(n%2 == 0)
+            //{
+            //    Console.WriteLine("{0}/{1}",i ,n - i + 1);
+            //}else if(n%2 == 1)
+            //{
+            //    Console.WriteLine("{0}/{1}", n - i + 1,i);
+            //}
+
+
+
+
+            // 수학1 - 달팽이는 올라가고싶다.
+            //string[] inputString = Console.ReadLine().Split(' ');
+            //int a = int.Parse(inputString[0]);
+            //int b = int.Parse(inputString[1]);
+            //int v = int.Parse(inputString[2]);
+
+            //double x = Math.Ceiling((v - a)/(double)(a - b)) + 1;
+
+            //Console.WriteLine(x);
+
+            //Console.ReadKey();
+
+
+
+            // 수학1 - AMC호텔
+
+            string line;
+            List<String> input = new List<string>();
+
+            while((line = Console.ReadLine()) != null)
+            {
+                input.Add(line);
+            }
+
+            Console.Write(input[0]);
+            Console.Write(input[1]);
+
+            Console.ReadKey();
         }
     }
 }
