@@ -47,40 +47,54 @@ namespace Algorithm_Practice
 
             //Console.ReadKey();
 
-
-
-
             // 수학1 - AMC호텔
             //기본 객체 생성
-            int testCase = int.Parse(Console.ReadLine());
-            List<double> H = new List<double>();
-            List<double> W = new List<double>();
-            List<double> N = new List<double>();
+            //int testCase = int.Parse(Console.ReadLine());
+            //List<double> H = new List<double>();
+            //List<double> W = new List<double>();
+            //List<double> N = new List<double>();
 
-            //dataList에 testCase숫자를 제외한 Data값을 차례대로 입력
-            for (int i =0; i<testCase; i++)
-            {
-                string[] data = Console.ReadLine().Split(' ');
-                H.Add(double.Parse(data[0]));
-                W.Add(double.Parse(data[1]));
-                N.Add(double.Parse(data[2]));
-            }
+            ////dataList에 testCase숫자를 제외한 Data값을 차례대로 입력
+            //for (int i =0; i<testCase; i++)
+            //{
+            //    string[] data = Console.ReadLine().Split(' ');
+            //    H.Add(double.Parse(data[0]));
+            //    W.Add(double.Parse(data[1]));
+            //    N.Add(double.Parse(data[2]));
+            //}
 
-            //방번호 결정
-            for(int i=0; i<H.Count; i++)
-            {
-                double floor = (N[i] % H[i]);
-                if (N[i] % H[i] == 0)
+            ////방번호 결정
+            //for(int i=0; i<H.Count; i++)
+            //{
+            //    double floor = (N[i] % H[i]);
+            //    if (N[i] % H[i] == 0)
+            //    {
+            //        floor =  H[i];
+            //    }
+            //    double column = Math.Ceiling((N[i] / H[i]));
+
+            //    Console.WriteLine("{0}{1}", floor.ToString() , column.ToString("00"));
+            //}
+
+            // 수학1 - 부녀회장이 될테야
+
+
+            // 수학1 - 설탕배달
+
+            int N = int.Parse(Console.ReadLine());
+            int a = N / 5;
+            int result = -1;
+
+            for(int i = a; i >= 0; i--)
+            { 
+                if( (N - i*5) % 3 == 0)
                 {
-                    floor =  H[i];
+                    result = i + (int)((double)(N - (i * 5)) / (double)3);
+                    break;
                 }
-                double column = Math.Ceiling((N[i] / H[i]));
-
-                Console.WriteLine("{0}{1}", floor.ToString() , column.ToString("00"));
             }
-
-
-
+            Console.WriteLine(result);
+            Console.ReadKey();
         }
     }
 }
